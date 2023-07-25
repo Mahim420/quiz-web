@@ -1,8 +1,7 @@
 import React from 'react';
 
 const Cart = ({topic}) => {
-    console.log(topic);
-    const {name, total,logo} = topic
+    const {name, total,logo} = topic;
     return (
         <div>
             <article className='ml-6 p-4 border border-6'>
