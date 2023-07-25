@@ -5,3 +5,12 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Rubik Iso', cursive;
 }
+
+.link a{
+   margin-right: 20px;
+}
+
+.color{
+    background-color: aquamarine;
+    padding: 5px;
+}
