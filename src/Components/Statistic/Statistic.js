@@ -9,6 +9,8 @@ import {
   YAxis,
 } from "recharts";
 
+import './stat.css'
+
 const Statistic = () => {
   const allData = useLoaderData();
   const graf = allData.data;
@@ -16,7 +18,7 @@ const Statistic = () => {
 
   return (
     <div>
-      <div className="text-center mt-12">
+      <div className="text-center gfont mt-12">
         <h1>
           <span className="text-4xl text-red-500 font-bold">Here is</span>
           <span className="text-5xl ml-2 font-semibold text-orange-500">Question Graf</span>
